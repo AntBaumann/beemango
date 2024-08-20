@@ -10,7 +10,7 @@ import { SystemInfo } from "../../types";
 
 const fetchSystemDetails = async () => {
   console.log("about to fetch system details");
-  const response = await fetch("https://backend.beemango.xyz/system-info");
+  const response = await fetch("https://honeypot.beemango.xyz/system-info");
   if (!response.ok) {
     throw new Error("Network response was not ok");
   }
